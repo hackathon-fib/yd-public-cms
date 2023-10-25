@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_creator_look_fowards",
+  "info": {
+    "displayName": "Look_foward",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "line_1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.string-array",
+      "required": true,
+      "max": 4
+    },
+    "line_2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.string-array",
+      "required": true,
+      "max": 4
+    },
+    "line_3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.string-array",
+      "max": 4,
+      "required": true
+    },
+    "line_4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.string-array",
+      "max": 4,
+      "required": true
+    }
+  }
+}

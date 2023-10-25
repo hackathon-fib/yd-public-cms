@@ -1,0 +1,79 @@
+{
+  "kind": "singleType",
+  "collectionName": "join_yoodees",
+  "info": {
+    "singularName": "join-yoodee",
+    "pluralName": "join-yoodees",
+    "displayName": "join-yoodee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "who-we-are.header",
+      "required": true
+    },
+    "community": {
+      "displayName": "community",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "join-yoodee.community",
+      "required": true
+    },
+    "preach_values": {
+      "displayName": "preach_values",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "join-yoodee.preach-values",
+      "required": true
+    },
+    "benefits": {
+      "displayName": "benefits",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "join-yoodee.benefits",
+      "required": true
+    },
+    "vacancies": {
+      "displayName": "vacancies",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "join-yoodee.vacancies",
+      "required": true
+    }
+  }
+}

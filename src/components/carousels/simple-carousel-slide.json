@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_carousels_simple_carousel_slides",
+  "info": {
+    "displayName": "simple_carousel_slide"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

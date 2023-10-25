@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_did_you_know_tests",
+  "info": {
+    "displayName": "DidYouKnow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner",
+      "required": true
+    },
+    "text": {
+      "displayName": "DidYouKnowText",
+      "type": "component",
+      "repeatable": false,
+      "component": "did-you-know.did-you-know-text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_who_we_are_meet_teams",
+  "info": {
+    "displayName": "meet_team"
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner",
+      "required": true
+    },
+    "team": {
+      "displayName": "team",
+      "type": "component",
+      "repeatable": true,
+      "component": "who-we-are.team",
+      "required": true
+    }
+  }
+}

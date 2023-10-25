@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_creator_info_boxes",
+  "info": {
+    "displayName": "Info_Boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "boxes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info-boxes.info-boxes",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button-text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_join_yoodee_benefits",
+  "info": {
+    "displayName": "benefits"
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner",
+      "required": true
+    },
+    "info_boxes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info-boxes.info-boxes",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "section_banner_buttons",
+  "info": {
+    "displayName": "SectionTitleBannerButton"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button-text",
+      "required": true
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner",
+      "required": true
+    }
+  }
+}

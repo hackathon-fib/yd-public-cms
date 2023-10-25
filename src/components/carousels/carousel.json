@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_carousels_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Insights",
+        "News",
+        "Events"
+      ],
+      "required": true
+    },
+    "desc": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "blog_id": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

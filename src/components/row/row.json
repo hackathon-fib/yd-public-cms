@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_row_rows",
+  "info": {
+    "displayName": "row"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "colour": {
+      "type": "enumeration",
+      "enum": [
+        "yellow",
+        "orange",
+        "pink"
+      ],
+      "required": true
+    }
+  }
+}

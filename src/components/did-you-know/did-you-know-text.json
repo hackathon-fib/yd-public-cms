@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_did_you_know_did_you_know_texts",
+  "info": {
+    "displayName": "DidYouKnowText"
+  },
+  "options": {},
+  "attributes": {
+    "top": {
+      "type": "text",
+      "required": true
+    },
+    "middle": {
+      "type": "text",
+      "required": true
+    },
+    "bottom": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

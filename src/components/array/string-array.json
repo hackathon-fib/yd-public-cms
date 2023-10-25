@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_array_string_arrays",
+  "info": {
+    "displayName": "string_array"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

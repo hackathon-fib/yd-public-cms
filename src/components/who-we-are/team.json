@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_who_we_are_teams",
+  "info": {
+    "displayName": "team",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "linkedin": {
+      "type": "string",
+      "required": true
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "pink",
+        "yellow",
+        "orange"
+      ]
+    },
+    "text": {
+      "type": "customField",
+      "required": true,
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

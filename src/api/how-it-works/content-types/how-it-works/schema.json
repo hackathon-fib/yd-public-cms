@@ -1,0 +1,75 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_it_workss",
+  "info": {
+    "singularName": "how-it-works",
+    "pluralName": "how-it-workss",
+    "displayName": "How-it-works",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.section-banner",
+      "required": true
+    },
+    "find_business": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.section-title",
+      "required": true
+    },
+    "get_advice": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.section-title",
+      "required": true
+    },
+    "share_recommendations": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.section-title",
+      "required": true
+    },
+    "private_feedback": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.section-title",
+      "required": true
+    }
+  }
+}

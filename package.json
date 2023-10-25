@@ -1,0 +1,29 @@
+{
+  "name": "yoodee-public-cms",
+  "version": "1.0.0",
+  "description": "Yoodee Public CMS",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@strapi/plugin-i18n": "^4.13.6",
+    "@strapi/plugin-users-permissions": "^4.13.6",
+    "@strapi/strapi": "^4.13.6",
+    "mysql": "^2.18.1",
+    "strapi-plugin-populate-deep": "^3.0.0",
+    "strapi-plugin-transformer": "^3.1.1"
+  },
+  "strapi": {
+    "uuid": "21b1db0c-87e7-4f7e-896c-4ee7be3f39e9"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  }
+}

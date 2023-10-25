@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_banner_banners",
+  "info": {
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "mobile_offset": {
+      "required": false,
+      "max": 200,
+      "min": 0,
+      "type": "integer",
+      "default": 0
+    },
+    "tablet_offset": {
+      "type": "integer",
+      "required": false,
+      "max": 200,
+      "min": 0
+    },
+    "desktop_offset": {
+      "type": "integer",
+      "required": false,
+      "min": 0,
+      "max": 200
+    },
+    "mobile_font_size": {
+      "type": "integer",
+      "required": true,
+      "max": 80,
+      "min": 17
+    },
+    "tablet_font_size": {
+      "type": "integer",
+      "required": true,
+      "max": 80,
+      "min": 17
+    },
+    "desktop_font_size": {
+      "type": "integer",
+      "required": true,
+      "min": 17,
+      "max": 80
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_instagrams",
+  "info": {
+    "displayName": "instagram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social",
+      "required": true
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner",
+      "required": true
+    }
+  }
+}

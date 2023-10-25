@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_contact_faqs",
+  "info": {
+    "displayName": "faqs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner",
+      "required": true
+    },
+    "faq": {
+      "displayName": "Faq",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_section_gifs",
+  "info": {
+    "displayName": "SectionGif",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "gif": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

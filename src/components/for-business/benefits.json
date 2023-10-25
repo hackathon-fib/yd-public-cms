@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_for_business_benefits",
+  "info": {
+    "displayName": "benefits",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner",
+      "required": true
+    },
+    "image_box": {
+      "displayName": "ImageBox",
+      "type": "component",
+      "repeatable": true,
+      "component": "image-box.image-box",
+      "required": true
+    }
+  }
+}

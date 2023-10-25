@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_info_boxes_info_boxes",
+  "info": {
+    "displayName": "info_boxes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "pink",
+        "yellow",
+        "orange",
+        "white"
+      ],
+      "required": true
+    }
+  }
+}

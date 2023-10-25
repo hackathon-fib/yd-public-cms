@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_did_you_knows",
+  "info": {
+    "displayName": "Did_you_know",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner",
+      "required": true
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carousels.carousel",
+      "required": true
+    },
+    "button_text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

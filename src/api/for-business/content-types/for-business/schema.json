@@ -1,0 +1,99 @@
+{
+  "kind": "singleType",
+  "collectionName": "for_businesses",
+  "info": {
+    "singularName": "for-business",
+    "pluralName": "for-businesses",
+    "displayName": "For-business",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.section-banner",
+      "required": true
+    },
+    "benefits": {
+      "displayName": "benefits",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "for-business.benefits",
+      "required": true
+    },
+    "win_over": {
+      "displayName": "WinOver",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "for-business.win-over",
+      "required": true
+    },
+    "info_did_you_know": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "did-you-know.test",
+      "required": true
+    },
+    "win_over_did_you_know": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "did-you-know.test",
+      "required": true
+    },
+    "info_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "video": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}

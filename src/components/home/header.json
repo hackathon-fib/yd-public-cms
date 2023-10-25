@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_home_headers",
+  "info": {
+    "displayName": "header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carousels.simple-carousel-slide",
+      "max": 2,
+      "min": 2,
+      "required": true
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

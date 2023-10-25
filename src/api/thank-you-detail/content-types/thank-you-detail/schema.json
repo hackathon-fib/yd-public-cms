@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "thank_you_details",
+  "info": {
+    "singularName": "thank-you-detail",
+    "pluralName": "thank-you-details",
+    "displayName": "Thank-You-Detail"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
