@@ -5,10 +5,10 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
+    "dev": "npx strapi develop",
+    "start": "npx strapi start",
+    "build": "npx strapi build",
+    "strapi": "npx strapi"
   },
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^2.0.4",
