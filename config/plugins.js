@@ -15,4 +15,9 @@ module.exports = () => ({
       },
     },
   },
+  "users-permissions": {
+    config: {
+      jwtSecret: env("ADMIN_JWT_SECRET")
+    },
+  }
 });
