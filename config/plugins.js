@@ -1,4 +1,4 @@
-module.exports = () => ({
+module.exports = ({ env }) => ({
   // https://www.npmjs.com/package/strapi-plugin-transformer
   transformer: {
     enabled: true,
