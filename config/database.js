@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   connection: {
-    client: env("DATABASE_CLIENT", "mysql"),
+    client: env("DATABASE_CLIENT", "mysql2"),
     connection: {
       connectionString: env("DATABASE_URL"),
       host: env("DATABASE_HOST"),
