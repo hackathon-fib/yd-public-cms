@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_questions",
+  "info": {
+    "displayName": "Question"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
