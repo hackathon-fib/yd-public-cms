@@ -1928,7 +1928,6 @@ export interface ApiSurveyQuestionSurveyQuestion extends Schema.CollectionType {
         };
       }> &
       Attribute.SetMinMax<{
-        min: 1;
         max: 5;
       }>;
     name: Attribute.String &
@@ -1937,6 +1936,9 @@ export interface ApiSurveyQuestionSurveyQuestion extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+      }> &
+      Attribute.SetMinMaxLength<{
+        maxLength: 256;
       }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;

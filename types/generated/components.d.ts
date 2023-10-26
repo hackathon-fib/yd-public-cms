@@ -841,9 +841,14 @@ export interface UiQuestion extends Schema.Component {
   collectionName: 'components_ui_questions';
   info: {
     displayName: 'Question';
+    description: '';
   };
   attributes: {
-    question: Attribute.String & Attribute.Required;
+    question: Attribute.Text &
+      Attribute.Required &
+      Attribute.SetMinMaxLength<{
+        maxLength: 256;
+      }>;
   };
 }
 
