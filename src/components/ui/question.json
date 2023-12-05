@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_ui_questions",
+  "info": {
+    "displayName": "Question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true,
+      "maxLength": 256
+    }
+  }
+}
